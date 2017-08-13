@@ -45,21 +45,21 @@ body {
 
 .display-3 {
 	margin-top: 300px;
-	margin-left: 20px;
+	margin-left: 75px;
 	color: #ffffff;
 }
 
 .lead {
 	color: #ffffff;
 	margin-bottom: 300px;
-	margin-left: 20px;
+	margin-left: 75px;
 }
 
 .about {
-	width: 100%;
+	width: 90%;
 	height: 100%;
 	background: #ffffff;
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	text-align: center;
 }
