@@ -1,24 +1,7 @@
-/*.typed-cursor {
-  opacity: 1;
-  -webkit-animation: blink 0.7s infinite;
-}
-@-webkit-keyframes blink {
-  0% { opacity:1; }
-  50% { opacity:0; }
-  100% { opacity:1; }
-}
-
-.typed-fade-out{
-  opacity: 0;
-  animation: 0;
-  transition: opacity .25s;
-}*/
-
-
-html {
+/*html {
 	height: 100%;
 	width: 100%;
-}
+}*/
 body {
 	background: url(assets/profile-picture.jpeg) no-repeat top center fixed;
 	background-size: cover;
@@ -28,39 +11,73 @@ body {
 	width: 100%;
 }
 
-/*.header {
-	height: 800px;
-	width: 100px;
-	margin: 0;
-	padding: 0;
-}*/
+.navbar {
+	/*position: absolute;*/
+	position: relative;
+}
+
+.icons {
+	height: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
 .header {
 	height: 400px;
-	/*width: 100px;*/
+	font-family: 'Shadows Into Light', cursive;
 	padding: 0;
 	width: 100%;
-	font-size: 40px;
 	margin: 0 auto;
 }
 
-.display-3 {
+.title {
 	margin-top: 300px;
 	margin-left: 75px;
 	color: #ffffff;
+	font-size: 100px;
 }
 
 .lead {
 	color: #ffffff;
 	margin-bottom: 300px;
 	margin-left: 75px;
+	font-size: 50px;
 }
 
-.about {
+.about-section {
 	width: 90%;
-	height: 100%;
 	background: #ffffff;
 	margin: 0 auto;
-	padding: 0;
+	padding: 50px;
+	text-align: left;
+}
+
+.about-me {
+	color: black;
+	font-family: 'Shadows Into Light', cursive;
+}
+.icon-section {
+	/*background-color: black;*/
+	width: 90%;
+	margin: 0 auto;
+	color: #ffffff;
+	padding-top: 50px;
+}
+
+.fa-code {
+	margin: 0 auto;
+}
+
+h4 {
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.skills {
+	width: 90%;
+	background: #ffffff;
+	margin: 0 auto;
+	margin-bottom: 100px;
+	padding-top: 20px;
 	text-align: center;
 }
 

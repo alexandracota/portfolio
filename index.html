@@ -3,16 +3,16 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="theme-color" content="#ffffff">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"> -->
 
 	<title>alex cota</title>
 	
-	<link rel="icon" href="favicons/favicon-16x16.png">
-	<link rel="stylesheet" type="text/css" href="reset.css">
+	<!-- <link rel="icon" href="favicons/favicon-16x16.png"> -->
+	<!-- <link rel="stylesheet" type="text/css" href="reset.css"> -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-	<link rel="iscroll-lite" href="assets/iscroll-master/build/iscroll-lite.js">
+	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#5bbad5">
+	<!-- <link rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#5bbad5"> -->
 
 	<script src="https://use.fontawesome.com/493f6390c9.js"></script>
 	<script src="assets/typed.js-master/lib/typed.min.js"></script>
@@ -21,47 +21,58 @@
 <body>
 
 <div id="wrapper">
-	<ul>
-		<li>
-			<!-- <div class="header"> -->
-			<div class="container header">
-				<h1 class="display-3">Alex Cota</h1>
-				<div class="lead"></div>
-			</div>
-		</li>
-		<li>
-			<!-- </div> -->
-			<div class="container about">
-				<div class="row">
-					<div class="col-md-4">
-						<br>
-						<i class="fa fa-code" aria-hidden="true"></i>
-						<hr>
-						<p>HTML5</p>
-						<p>CSS3</p>
-						<p>javaScript</p>
-						<p>jQuery</p>
-						<p>node.js</p>
-						<p>AJAX</p>
-						<p>Git/Github</p>
-					</div>
-					<div class="col-md-4">
-						<br>
-						<i class="fa fa-cogs" aria-hidden="true"></i>
-						<hr>
-						<p>Mobile-responsive web design</p>
-						<p>Database Management</p>
-						<p>Wordpress website customization</p>
-					</div>
-					<div class="col-md-4">
-						<br>
-						<i class="fa fa-user-plus" aria-hidden="true"></i>
-						<hr>
-					</div>
+	<div class="container menu">
+		<nav class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">
+						<a href="https://github.com/alexandracota" target="_blank"><img class="icons" alt="GitHub" src="assets/github-logo-white.png"></a>
+						<a href="https://www.linkedin.com/in/alexandra-cota-4a368410a/" target="_blank"><img class="icons" alt="LinkedIn" src="assets/linkedin-logo-white.png"></a>
+						<a href="mailto:cota.alexandra14@gmail.com"><img class="icons" alt="Email" src="assets/white-email-envelope.png"></a>
+					</a>
 				</div>
 			</div>
-		</li>
-	</ul>
+		</nav>
+	</div>
+	<!-- <div class="header"> -->
+	<div class="container header">
+		<h1 class="title">Alex Cota</h1>
+		<div class="lead"></div>
+	</div>
+
+	<!-- </div> -->
+	<div class="container">
+		
+		<div class="row about-section">
+			<h2 class="about-me">About Me</h2>
+			<p>I'm a junior-level full-stack web developer in San Francisco, CA.<br><br>
+			Currently, I am enrolled in a 6-month full-stack web development boot camp at the UC Berkeley Extension, building my knowledge in front-end fundamentals, server-side architectures, database management systems, advanced front-end frameworks, data structures, and algorithms.</p>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row icon-section">
+			<!-- <i class="fa fa-code" aria-hidden="true"></i> -->
+			<hr>
+		</div>
+		<div class="row skills">
+			<div class="col-md-6">
+				<h4>Front End Skills</h4>
+				<p>HTML5/CSS3</p>
+				<p>JavaScript</p>
+				<p>jQuery</p>
+				<p>APIs and AJAX</p>
+				
+			</div>
+			<div class="col-md-6">
+				<h4>Back End Skills</h4>
+				<p>Node.js</p>
+				<p>MySQL</p>
+				<p>Express.js</p>
+				<p>Sequelize</p>
+			</div>
+		</div>
+	</div>
 </div>
 
 <script src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
@@ -72,7 +83,8 @@
 
 	var typed = new Typed('.lead', {
 	  strings: ["Full Stack Web Developer"],
-	  typeSpeed: 50
+	  typeSpeed: 50,
+	  startDelay: 1000
 	});
 
 });
