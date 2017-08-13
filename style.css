@@ -85,6 +85,15 @@ p {
 	margin-top: 20px;
 }
 
+.projects {
+	width: 90%;
+	background: #ffffff;
+	margin: 0 auto;
+	margin-bottom: 100px;
+	padding-top: 20px;
+	text-align: center;
+}
+
 .site-footer {
 	background-color: black;
 	color: lightgray;
