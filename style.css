@@ -3,7 +3,7 @@
 	width: 100%;
 }*/
 body {
-	background: url(assets/profile-picture.jpeg) no-repeat top center fixed;
+	background: url(assets/profile-picture-compressed.jpg) no-repeat top center fixed;
 	background-size: cover;
 	margin: 0;
 	padding: 0;
