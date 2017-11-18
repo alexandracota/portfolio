@@ -40,7 +40,7 @@
 
 .projects {
 	width: 100%;
-	background: #ffffff;
+	background: #848689;
 	margin: 0 auto;
 	padding-top: 150px;
 	padding-bottom: 150px;
@@ -58,6 +58,28 @@
     	border-width: thin;	
     	border-color: #000000;
     }
+
+.overview {
+	width: 100%;
+	background: #ffffff;
+	margin: 0 auto;
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+	#alex-logo {
+		height: 600px;
+		width: 600px;
+
+	}
+	.overview-text {
+		font-family: 'Shadows Into Light', cursive;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		line-height: 50px;
+		font-size: 40px;
+	}
+
+
 
 .site-footer {
 	background-color: black;
