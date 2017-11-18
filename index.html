@@ -3,84 +3,62 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="theme-color" content="#ffffff">
-	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
 
 	<title>alex cota</title>
 	
-	<!-- <link rel="icon" href="favicons/favicon-16x16.png"> -->
-	<!-- <link rel="stylesheet" type="text/css" href="reset.css"> -->
+	<link rel="icon" href="favicons/favicon-16x16.png">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<!-- <link rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#5bbad5"> -->
+	<link rel="stylesheet" type="text/css" href="index.css">
 
-	<script src="https://use.fontawesome.com/493f6390c9.js"></script>
-	<script src="assets/typed.js-master/lib/typed.min.js"></script>
 
 </head>
 <body>
 
-<div id="wrapper">
+<div class="wrapper">
+
+	<!-- Contact navbar -->
 	<div class="container menu">
 		<nav class="navbar navbar-default">
 			<div class="container-fluid">
 				<div class="navbar-header">
-					<a class="navbar-brand" href="#">
 						<a href="https://github.com/alexandracota" target="_blank"><img class="icons" alt="GitHub" src="assets/github-logo-white.png"></a>
 						<a href="https://www.linkedin.com/in/alexandra-cota-4a368410a/" target="_blank"><img class="icons" alt="LinkedIn" src="assets/linkedin-logo-white.png"></a>
 						<a href="mailto:cota.alexandra14@gmail.com"><img class="icons" alt="Email" src="assets/white-email-envelope.png"></a>
-					</a>
 				</div>
 			</div>
 		</nav>
 	</div>
-	<!-- <div class="header"> -->
+
 	<div class="container header">
 		<h1 class="title">Alex Cota</h1>
-		<div class="lead"></div>
+		<div class="lead">Web Developer</div>
 	</div>
 
-	<!-- </div> -->
-	<div class="container">
-		
-		<div class="row about-section">
-			<h2 class="about-me">About Me</h2>
-			<p>I'm a junior-level full-stack web developer in San Francisco, CA.<br><br>
-			I graduated from the Berkeley Coding Boot Camp in October 2017 where I spent six months building full-stack web applications. I also have 2 years experience as a nonprofit Salesforce administrator and 2+ years experience building and customizing WordPress sites.</p>
-		</div>
-	</div>
 
-	<div class="container">
-		<div class="row icon-section">
-			<!-- <i class="fa fa-code" aria-hidden="true"></i> -->
-			<hr>
-		</div>
-		<div class="row skills">
-			<div class="col-md-6">
-				<h4>Front End Skills</h4>
-				<p>HTML5/CSS3</p>
-				<p>JavaScript</p>
-				<p>jQuery</p>
-				<p>React</p>
-				
+	<div class="container projects">
+		<div class="row">
+			<!-- <h4 class="project-header">Projects</h4> -->
+			<div class="col-xs-6 col-md-3">
+				<a href="https://yum-app.github.io/yum-app/" target="_blank" class="thumbnail">
+					<img src="assets/yum_logo.png" alt="YUM" class="project-image">
+				</a>
 			</div>
-			<div class="col-md-6">
-				<h4>Back End Skills</h4>
-				<p>SQL</p>
-				<p>MongoDB</p>
-				<p>Express</p>
-				<p>Node.js</p>
+			<div class="col-xs-6 col-md-3">
+				<a href="https://communitycompostproject.org" target="_blank" class="thumbnail">
+					<img src="assets/ccp_logo.jpg" alt="Community Compost Project" class="project-image">
+				</a>
 			</div>
-		</div>
-	</div>
-
-	<div class="container">
-		<div class="row projects">
-			<div class="col-md-12">
-				<h4>Projects</h4>
-				<p><a href="https://tiffw.github.io/yum/index.html#" target="_blank">YUM: <br>find recipes using ingredients you already have in your fridge.</a></p>
-				<p><a href="https://alexandracota.github.io/crystal-collector/" target="_blank"> Crystal Collector: <br> guess the values of the crystals to win the game.</a></p>
-				<p><a href="https://alexandracota.github.io/giftastic/" target="_blank"> Cute Animal GIFs: <br> a whole screen of your favorite animal GIFs on demand.</a></p>
+			<div class="col-xs-6 col-md-3">
+				<a href="https://alexandracota.github.io/crystal-collector/" target="_blank" class="thumbnail">
+					<img src="assets/crystal-collector-logo.png" alt="Crystal Collector" class="project-image">
+				</a>
+			</div>
+			<div class="col-xs-6 col-md-3">
+				<a href="https://alexandracota.github.io/trivia/" target="_blank" class="thumbnail">
+					<img src="assets/80s-movie-trivia.png" alt="Crystal Collector" class="project-image">
+				</a>
 			</div>
 		</div>
 	</div>
@@ -92,23 +70,7 @@
 </div>
 
 <script src="http://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
-
-
-<script>
-	$(document).ready(function() {
-
-	var typed = new Typed('.lead', {
-	  strings: ["Full Stack Web Developer"],
-	  typeSpeed: 50,
-	  startDelay: 1000
-	});
-
-});	
-</script>
-
-
-
-
+<script type="text/javascript" src="index.js"></script>
 
 
 </body>

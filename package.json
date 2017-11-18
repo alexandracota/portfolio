@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/alexandracota/portfolio#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
     "require": "^2.4.20",
     "requirejs": "^2.3.4",
     "typed.js": "^2.0.5"
