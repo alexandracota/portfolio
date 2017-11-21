@@ -67,8 +67,8 @@
 	padding-bottom: 150px;
 }
 	#alex-logo {
-		height: 600px;
-		width: 600px;
+		height: auto;
+		width: 100%;
 	}
 	.overview-text {
 		font-family: 'Shadows Into Light', cursive;
@@ -78,11 +78,42 @@
 		font-size: 40px;
 	}
 
-
-
 .site-footer {
 	background-color: black;
 	color: lightgray;
 	text-align: center;
 	font-family: 'Shadows Into Light', cursive;
+}
+
+@media only screen and (max-width:480px) {
+	.icons {
+		height:50px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+	.projects {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.project-image {
+		margin: 5px;
+		width: 75%;
+		height: auto;
+	}
+
+	.overview {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+
+	#alex-logo {
+		width: 50%;
+	}
+
+	.overview-text {
+		font-size: 30px;
+		line-height: 25px;
+	}
 }
