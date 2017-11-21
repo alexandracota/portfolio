@@ -1,10 +1,10 @@
 .wrapper {
 	background: url(assets/profile-picture-compressed.jpg) no-repeat top center fixed;
 	background-size: cover;
-	margin: 0;
-	padding: 0;
+/*	margin: 0;*/
+	/*padding: 0;*/
 	height: auto;
-	width: 100%;
+	/*width: 100%;*/
 	position: relative;
 }
 
