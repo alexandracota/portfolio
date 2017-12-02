@@ -56,7 +56,7 @@ body {
 }
 
 .paint {
-	font-size: 40px;
+font-size: 40px;
  position: fixed; 
   top: 50%;
   left: 50%;
@@ -87,6 +87,10 @@ body {
     	border-color: #000000;
     }
 
+.contact {
+	background-color: #000000;
+	}
+
 .overview {
 	width: 100%;
 	background: #ffffff;
@@ -101,7 +105,6 @@ body {
 	.overview-text {
 		font-family: 'Cabin Sketch', cursive;
 		margin-top: 20px;
-		/*margin-bottom: 20px;*/
 		line-height: 50px;
 		font-size: 40px;
 	}
