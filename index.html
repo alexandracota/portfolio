@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<script type="text/javascript" src="tabulous.js"></script>
 <head>
 	<meta charset="utf-8">
 	<meta name="theme-color" content="#ffffff">
@@ -9,31 +10,43 @@
 	
 	<link rel="icon" href="favicons/favicon-16x16.png">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+<!-- 	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="index.css">
 
 
 </head>
 <body>
 
+<div>
+	<canvas id='canvas'>	</canvas>
+	<span class="paint">Hi, my name is Alex. :)<span>
+</div>
+
 <div class="wrapper">
 
 	<!-- Contact navbar -->
 	<div class="container menu">
+<canvas id='canvas'>	</canvas>
 		<nav class="navbar navbar-default">
 			<div class="container-fluid">
-				<div class="navbar-header">
+<!-- 				<div class="navbar-header">
 						<a href="https://github.com/alexandracota" target="_blank"><img class="icons" alt="GitHub" src="assets/github-logo-white.png"></a>
 						<a href="https://www.linkedin.com/in/alexandra-cota/" target="_blank"><img class="icons" alt="LinkedIn" src="assets/linkedin-logo-white.png"></a>
 						<a href="mailto:cota.alexandra14@gmail.com"><img class="icons" alt="Email" src="assets/white-email-envelope.png"></a>
-				</div>
+				</div> -->
 			</div>
 		</nav>
 	</div>
 
 	<div class="container header">
-		<h1 class="title">Alex Cota</h1>
-		<div class="lead">Web Developer</div>
+	<div class="row">
+		<div class="col-md-6 lead">
+		<div class=>Artsy, garden-loving, urban dwelling web developer.</div>
+		<a href="https://github.com/alexandracota" target="_blank"><img class="icons" alt="GitHub" src="assets/github-logo-white.png"></a>
+			<a href="https://www.linkedin.com/in/alexandra-cota/" target="_blank"><img class="icons" alt="LinkedIn" src="assets/linkedin-logo-white.png"></a>
+			<a href="mailto:cota.alexandra14@gmail.com"><img class="icons" alt="Email" src="assets/white-email-envelope.png"></a>
+		</div>
 	</div>
 
 
@@ -88,9 +101,6 @@
 			</div>
 			<div class="col-xs-6 col-md-6">
 				<div class="overview-text">
-					I'm a web developer living in San Francisco.
-					<br>
-					<br>
 					Specializing in the following:
 					<ul>
 						<li>HTML</li>
@@ -101,12 +111,14 @@
 						<li>Express</li>
 						<li>NodeJS</li>
 						<li>MongoDB</li>
-						<li>MySQL</li>
 					</ul>
 				</div>
 			</div>
 		</div>
+
 	</div>
+
+
 
 	<footer class="site-footer">
 		&copy; Copyright 2017 Alex Cota

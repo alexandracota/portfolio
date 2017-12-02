@@ -1,3 +1,7 @@
+@import "compass/css3";
+
+@import url(https://fonts.googleapis.com/css?family=Give+You+Glory);
+
 .wrapper {
 	background: url(assets/profile-picture-compressed.jpg) no-repeat top center fixed;
 	background-size: cover;
@@ -6,6 +10,7 @@
 	height: auto;
 	/*width: 100%;*/
 	position: relative;
+	width: 100%;
 }
 
 .navbar {
@@ -19,7 +24,7 @@
 
 .header {
 	height: 400px;
-	font-family: 'Shadows Into Light', cursive;
+	font-family: 'Cabin Sketch', cursive;
 	padding: 0;
 	width: 100%;
 	margin: 0 auto;
@@ -32,10 +37,33 @@
 	}
 	.lead {
 		color: #ffffff;
-		margin-bottom: 300px;
+		margin-bottom: 100px;
 		margin-left: 75px;
 		font-size: 50px;
 	}
+
+
+body { 
+  margin:0px;
+  font-family: 'Cabin Sketch', cursive;
+/*  font-size: 40px;*/
+  
+  &:hover {
+   span {
+      display: none; 
+    }
+  }
+}
+
+.paint {
+	font-size: 40px;
+ position: fixed; 
+  top: 50%;
+  left: 50%;
+  color: #000;
+  margin-top: -40px;
+  margin-left: -227px;
+}
 
 
 .projects {
@@ -47,7 +75,7 @@
 	text-align: center;
 }
 	.project-header {
-		font-family: 'Shadows Into Light', cursive;
+		font-family: 'Cabin Sketch', cursive;
 		margin-bottom: 50px;
 	}
 	.project-image {
@@ -68,12 +96,12 @@
 }
 	#alex-logo {
 		height: auto;
-		width: 100%;
+		width: 70%;
 	}
 	.overview-text {
-		font-family: 'Shadows Into Light', cursive;
+		font-family: 'Cabin Sketch', cursive;
 		margin-top: 20px;
-		margin-bottom: 20px;
+		/*margin-bottom: 20px;*/
 		line-height: 50px;
 		font-size: 40px;
 	}
@@ -82,7 +110,7 @@
 	background-color: black;
 	color: lightgray;
 	text-align: center;
-	font-family: 'Shadows Into Light', cursive;
+	font-family: 'Cabin Sketch', cursive;
 }
 
 @media only screen and (max-width:480px) {
