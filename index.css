@@ -117,6 +117,13 @@ font-size: 40px;
 }
 
 @media only screen and (max-width:480px) {
+	.paint {
+		font-size: 40px;
+ position: fixed; 
+  top: 50%;
+  left: 50%;
+  color: #000;
+	}
 	.icons {
 		height:50px;
 		margin-left: 10px;
